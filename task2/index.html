@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="skyblue">
+  <header>
+    <h1><u>Image Gallery</u></h1>
+  </header>
+  <main class="gallery">
+    <div class="gallery-item" onclick="openGallery('animals')">
+      <img src="photos/animals/animal1.jpg" alt="Animal Image">
+    
+      <h3><u>Animal Images</u></h3>
+   
+    </div>
+    <div class="gallery-item" onclick="openGallery('wonders')">
+      <img src="photos/wonders/wonder1.jpg" alt="Wonders of the words">
+      <h3><u>Wonders of the words</u></h3>
+     
+    </div>
+    <div class="gallery-item" onclick="openGallery('birds')">
+      <img src="photos/birds/bird1.jpg" alt="Birds Image">
+      <h3><u>Birds Images</u></h3>
+      
+    </div>
+  </main>
+
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeGallery()">&times;</span>
+    <div class="modal-content">
+      <img id="modal-img" src="" alt="Gallery Image">
+      <div class="actions">
+       
+        <button onclick="deleteImage()">Delete</button>
+        <button onclick="shareImage()">Share</button>
+        <button onclick="viewNextImage()">Next</button>
+        <button onclick="closeGallery()">close</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
