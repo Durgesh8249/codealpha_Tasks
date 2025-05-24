@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  background-color:black;
+  color: rgb(154, 176, 29);
+  padding: 1rem 0;
+  list-style: none;
+  font-size: large;
+  font-weight: bold;
+font-style: italic;
+text-align: center;
+line-height: 2;
+
+
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  color: rgb(201, 46, 46);
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.navbar a:hover {
+  color: #0b7b83;
+}
+section {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.profile-picture img {
+  width: 150px; 
+  height: 150px;
+  border: 3px solid #333; 
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  object-fit: cover; 
+}
+
+section p,ul,strong {
+  text-align: center;
+}
+section span{
+  color:rgb(194, 78, 5);
+  font-weight: bold;
+  font-style: italic;
+  background-color: rgb(238, 244, 246);
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  color:black;
+  background-color:white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ff6347;
+}
+
+#feedback {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
